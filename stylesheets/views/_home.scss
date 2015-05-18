@@ -1,0 +1,67 @@
+.logo1{
+	width: 12%;
+	margin: 1% auto;
+	img{
+		width: 100%;
+		margin: 1% auto;
+	}
+}
+
+.logo2 img{
+	width: 48px;
+	margin: 0.2%;
+}
+
+.navbar:header{
+	float:none;
+}
+
+.navbar-nav{
+	float:none;
+	text-align:center;
+	li{
+		float: none;
+		display: inline-block;
+		@media screen and (max-width:#{$screen-phone})
+		{display: block;}
+		a{
+			font-size: 16px;
+		}
+	}
+}
+
+.grid{
+	margin: 5% 10%;
+	p{
+		font-size: 10px;
+		margin-top: 1%;
+		margin-bottom: 5%;
+	}
+}
+
+.texto{
+	background-color: gray;
+	height: 120px;
+}
+
+.piepagina{
+	background-color: #ccc;
+	padding: 1.5% 0;
+}
+
+
+.gridpie{
+	margin: 0 10%;
+	p{
+		font-size: 9px;
+		margin-top: 1%;
+		margin-bottom: 5%;
+	}
+	img{
+		width: 15%;
+	}
+}
+
+.text-center{
+	text-align:center;
+}
